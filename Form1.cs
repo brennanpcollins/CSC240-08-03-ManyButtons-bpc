@@ -19,7 +19,17 @@ namespace CSC240_08_03_ManyButtons_bpc
 
         private void UxBlueButton_Click(object sender, EventArgs e)
         {
+            this.BackColor = Color.Blue;
+        }
 
+        private void UxRedButton_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Red;
+        }
+
+        private void UxWhiteButton_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.White;
         }
     }
 }
