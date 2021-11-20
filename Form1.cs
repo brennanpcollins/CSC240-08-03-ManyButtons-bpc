@@ -17,5 +17,9 @@ namespace CSC240_08_03_ManyButtons_bpc
             InitializeComponent();
         }
 
+        private void UxBlueButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
