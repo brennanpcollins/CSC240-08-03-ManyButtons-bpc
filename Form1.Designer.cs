@@ -43,6 +43,7 @@ namespace CSC240_08_03_ManyButtons_bpc
             this.UxRedButton.TabIndex = 0;
             this.UxRedButton.Text = "Red";
             this.UxRedButton.UseVisualStyleBackColor = true;
+            this.UxRedButton.Click += new System.EventHandler(this.UxRedButton_Click);
             // 
             // UxWhiteButton
             // 
@@ -52,6 +53,7 @@ namespace CSC240_08_03_ManyButtons_bpc
             this.UxWhiteButton.TabIndex = 1;
             this.UxWhiteButton.Text = "White";
             this.UxWhiteButton.UseVisualStyleBackColor = true;
+            this.UxWhiteButton.Click += new System.EventHandler(this.UxWhiteButton_Click);
             // 
             // UxBlueButton
             // 
@@ -71,6 +73,7 @@ namespace CSC240_08_03_ManyButtons_bpc
             this.UxFavColorButton.TabIndex = 3;
             this.UxFavColorButton.Text = "My favorite color";
             this.UxFavColorButton.UseVisualStyleBackColor = true;
+            this.UxFavColorButton.Click += new System.EventHandler(this.UxBlueButton_Click);
             // 
             // Form1
             // 
